@@ -1,6 +1,7 @@
 import pc from './images/pc.png';
 import './App.css';
 import Footer from './components/Footer';
+import { Link } from 'react-router-dom';
 
 function App() {
   return (
@@ -8,7 +9,8 @@ function App() {
       <header className="App-header">
         <img src={pc} className="App-logo" alt="logo" />
         <p className='title'>
-          Welcome!
+        <a href='./components/Info.jsx' target='_blank' >
+          Welcome!</a>
         </p>
 
         <div className="Links">

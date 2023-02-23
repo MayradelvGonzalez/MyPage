@@ -1,9 +1,9 @@
 import React from "react";
 import '../App.css';
 
-function Footer(props) {
+function Footer() {
     return (
-        <div className="footer"><h1>Hi this is a footer and you are {props.name}</h1></div>
+        <div className="footer"><h1> <a href="mailto:mayradelvallegonzalez@gmail.com">Send me a message!</a></h1></div>
 
     )
 }
