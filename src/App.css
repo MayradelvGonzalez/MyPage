@@ -5,7 +5,7 @@
 }
 
 .title {
-  font-size: 1.5em;
+  font-size: 1em;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-shadow: 2px 2px 6px rgb(209, 191, 191), 0 0 1em rgb(91, 91, 221), 0 0 0.5em rgb(92, 92, 220);
 }
@@ -24,7 +24,7 @@
 
 .App-header {
   background-color: white;
-  height: 80vh;
+  height: 85vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -64,21 +64,25 @@
 
   to {
     transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-  }
+    -webkit-transform:;
+    -moz-transform:;
+    -ms-transform:;
+    -o-transform:;
+}
 }
 
 .footer {
   background-color: #282c34;
-  min-height: 20vh;
+  min-height: 10vh;
+  width: 100vw;
   font-size: 0.5em;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: auto;
+  position: fixed;
+  bottom: 0; 
+
 }
 
 .footer a {

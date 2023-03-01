@@ -9,8 +9,9 @@ function App() {
       <header className="App-header">
         <img src={pc} className="App-logo" alt="logo" />
         <p className='title'>
-        <a href='./components/Info.jsx' target='_blank' >
-          Welcome!</a>
+        {/* <Link to='./components/Info.jsx' target='_blank' > */}
+        <h4> Hola 🖐 </h4>
+          Soy Mayra, desarrolladora fullstack MERN 
         </p>
 
         <div className="Links">
@@ -20,7 +21,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            My linkedin 🧷
+            linkedin 🧷
           </a>
           <a
 
@@ -29,7 +30,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            My github 🧷
+            github 🧷
           </a></div>
 
 
