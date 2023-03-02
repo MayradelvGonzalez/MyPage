@@ -1,7 +1,7 @@
 import pc from './images/pc.png';
 import './App.css';
 import Footer from './components/Footer';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 function App() {
   return (
@@ -13,8 +13,9 @@ function App() {
         <h4> Hola 🖐 </h4>
           Soy Mayra, desarrolladora fullstack MERN 
         </p>
-
+    
         <div className="Links">
+          
           <a
             className="App-link"
             href="https://www.linkedin.com/in/mayra-gonz%C3%A1lez-v/"
