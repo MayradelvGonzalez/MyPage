@@ -10,7 +10,7 @@ function App() {
         <img src={pc} className="App-logo" alt="logo" />
         <p className='title'>
         {/* <Link to='./components/Info.jsx' target='_blank' > */}
-        <h4> Hola 🖐 </h4>
+        <h3 className='saludo'> Hola 🖐 </h3>
           Soy Mayra, desarrolladora fullstack MERN 
         </p>
     
